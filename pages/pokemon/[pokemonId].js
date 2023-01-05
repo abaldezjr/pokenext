@@ -1,5 +1,6 @@
 
 import styles from '../../styles/Pokemon.module.css';
+
 import Image from 'next/Image';
 
 export const getStaticPaths = async () => {
