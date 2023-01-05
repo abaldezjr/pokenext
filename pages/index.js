@@ -1,5 +1,6 @@
 import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
+
 import Image from 'next/image';
 
 import Card from '../components/Card';
@@ -32,7 +33,11 @@ export default function Home({ pokemons }) {
     <>
       <div className={styles.titleContainer}>
         <h1>Poke<span>Next</span></h1>
-        <Image src='/images/pokeball.png' width='50' height='50' alt='pokeball' />
+        <Image
+          src='/images/pokeball.png'
+          width={50} height={50}
+          alt='pokeball'
+        />
       </div>
       <div className={styles.pokemonContainer}>
         {pokemons.map((pokemon) => (
