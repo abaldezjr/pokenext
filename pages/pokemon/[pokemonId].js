@@ -1,8 +1,6 @@
 
 import styles from '../../styles/Pokemon.module.css';
 
-import Image from 'next/Image';
-
 export const getStaticPaths = async () => {
 
     const maxPokemons = 151;
@@ -47,12 +45,12 @@ export default function Pokemon({ pokemon }) {
     return (<>
         <div className={styles.pokemonContainer}>
             <h1>{pokemon.name}</h1>
-            <Image
+            {/*<Image
                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`}
                 width='200'
                 height='200'
                 alt='pokemon'
-            />
+    />*/}
             <div>
                 <h3>Número:</h3>
                 <p>#{pokemon.id}</p>
