@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 
     margin-bottom: 2em;
@@ -20,7 +20,7 @@
 }
 
 .navbar ul {
-    display:flex;
+    display: flex;
     list-style: none;
 
 }
@@ -40,4 +40,3 @@
 .navbar a:hover {
     border-bottom: 2px solid #FFF;
 }
-

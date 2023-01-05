@@ -62,7 +62,7 @@ export default function Pokemon({ pokemon }) {
                     {pokemon.types.map((item, index) => (
                         <span
                             key={index}
-                            className={`${styles.type} ${styles['type_'+item.type.name]}`}>
+                            className={`${styles.type} ${styles['type_' + item.type.name]}`}>
                             {item.type.name}
                         </span>
                     )
